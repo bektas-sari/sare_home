@@ -1,6 +1,7 @@
 # SAREHOME - Premium Real Estate Website
 
-SAREHOME is a modern and responsive real estate website project designed to showcase premium properties for sale and rent. Built with clean HTML, CSS, and JavaScript, this project is ideal for agencies, freelancers, or individuals seeking to create a strong online presence in the property market.
+SAREHOME is a modern and responsive real estate website project designed to showcase premium properties for sale and rent. 
+Built with clean HTML, CSS, and JavaScript, this project is ideal for agencies, freelancers, or individuals seeking to create a strong online presence in the property market.
 
 ## 🌍 Live Demo
 
