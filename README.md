@@ -42,7 +42,7 @@ To run this project locally:
 1. **Clone the repository**
 
 ```bash
- git clone https://github.com/your-username/sarehome-realestate.git
+ git clone https://github.com/bektas-sari/sarehome-realestate.git
 ```
 
 2. **Open the project**
