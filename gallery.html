@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - SAREHOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration:none; color:inherit;">
+                    <h2>SAREHOME</h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Property Gallery</h1>
+            <p>Explore Our Premium Properties</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Properties</button>
+                <button class="filter-btn" data-filter="houses">Houses</button>
+                <button class="filter-btn" data-filter="apartments">Apartments</button>
+                <button class="filter-btn" data-filter="villas">Villas</button>
+                <button class="filter-btn" data-filter="interiors">Interiors</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="houses">
+                    <div class="gallery-image">
+                        <img src="images/house1.jpg" alt="Modern Family House" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Modern Family House</h4>
+                                <p>4 Bed • 3 Bath • 2,500 sq ft</p>
+                                <span class="price">$450,000</span>
+                            </div>
+                            <div class="gallery-actions">
+                                <button class="view-btn" onclick="openLightbox('images/house1.jpg', 'Modern Family House')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="info-btn">
+                                    <i class="fas fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="houses">
+                    <div class="gallery-image">
+                        <img src="images/house2.webp" alt="Contemporary House" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Contemporary Villa</h4>
+                                <p>5 Bed • 4 Bath • 3,200 sq ft</p>
+                                <span class="price">$650,000</span>
+                            </div>
+                            <div class="gallery-actions">
+                                <button class="view-btn" onclick="openLightbox('images/house2.webp', 'Contemporary Villa')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="info-btn">
+                                    <i class="fas fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interiors">
+                    <div class="gallery-image">
+                        <img src="images/interior1.jpg" alt="Modern Interior" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Luxury Living Room</h4>
+                                <p>Modern Design • Premium Finishes</p>
+                                <span class="price">Interior Design</span>
+                            </div>
+                            <div class="gallery-actions">
+                                <button class="view-btn" onclick="openLightbox('images/interior1.jpg', 'Luxury Living Room')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="info-btn">
+                                    <i class="fas fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interiors">
+                    <div class="gallery-image">
+                        <img src="images/interior2.jpg" alt="Blue and White Interior" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Elegant Living Space</h4>
+                                <p>Blue & White Theme • Classic Style</p>
+                                <span class="price">Interior Design</span>
+                            </div>
+                            <div class="gallery-actions">
+                                <button class="view-btn" onclick="openLightbox('images/interior2.jpg', 'Elegant Living Space')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="info-btn">
+                                    <i class="fas fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interiors">
+                    <div class="gallery-image">
+                        <img src="images/interior3.jpg" alt="Modern Kitchen" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h4>Contemporary Kitchen</h4>
+                                <p>Open Plan • Modern Appliances</p>
+                                <span class="price">Interior Design</span>
+                            </div>
+                            <div class="gallery-actions">
+                                <button class="view-btn" onclick="openLightbox('images/interior3.jpg', 'Contemporary Kitchen')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="info-btn">
+                                    <i class="fas fa-info"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional placeholder items -->
+                <div class="gallery-item" data-category="apartments">
+                    <div class="gallery-image placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-building"></i>
+                            <h4>Luxury Apartment</h4>
+                            <p>2 Bed • 2 Bath • 1,200 sq ft</p>
+                            <span class="price">$280,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="villas">
+                    <div class="gallery-image placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-home"></i>
+                            <h4>Waterfront Villa</h4>
+                            <p>6 Bed • 5 Bath • 4,000 sq ft</p>
+                            <span class="price">$850,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="apartments">
+                    <div class="gallery-image placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-building"></i>
+                            <h4>Downtown Condo</h4>
+                            <p>1 Bed • 1 Bath • 800 sq ft</p>
+                            <span class="price">$195,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="houses">
+                    <div class="gallery-image placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-home"></i>
+                            <h4>Suburban Home</h4>
+                            <p>3 Bed • 2 Bath • 1,800 sq ft</p>
+                            <span class="price">$325,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption">
+                <h4 id="lightbox-title"></h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Find Your Dream Property?</h2>
+                <p>Browse our extensive collection of premium properties or contact us for personalized assistance.</p>
+                <div class="cta-buttons">
+                    <a href="index.html" class="btn btn-primary">Search Properties</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SAREHOME</h3>
+                    <p>Your trusted partner in finding the perfect home. We provide exceptional real estate services with integrity and professionalism.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Property Sales</a></li>
+                        <li><a href="#">Property Rental</a></li>
+                        <li><a href="#">Market Analysis</a></li>
+                        <li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@sarehome.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Real Estate St, City, State 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SAREHOME. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
+
