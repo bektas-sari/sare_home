@@ -42,13 +42,13 @@ To run this project locally:
 1. **Clone the repository**
 
 ```bash
- git clone https://github.com/bektas-sari/sarehome-realestate.git
+ git clone https://github.com/bektas-sari/sare_home.git
 ```
 
 2. **Open the project**
 
 ```bash
-cd sarehome-realestate
+cd sare_home
 ```
 
 3. **Launch in browser**
@@ -72,8 +72,8 @@ This project is licensed under the MIT License.
 
 **Bektas Sari**
 
-Email: [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)
-GitHub: [bektas-sari](https://github.com/bektas-sari)
-LinkedIn: [linkedin.com/in/bektas-sari](https://www.linkedin.com/in/bektas-sari)
-ResearchGate: [researchgate.net/profile/Bektas-Sari-3](https://www.researchgate.net/profile/Bektas-Sari-3)
-Academia: [independent.academia.edu/bektassari](https://independent.academia.edu/bektassari)
+Email: [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)<br>
+GitHub: [bektas-sari](https://github.com/bektas-sari)<br>
+LinkedIn: [linkedin.com/in/bektas-sari](https://www.linkedin.com/in/bektas-sari)<br>
+ResearchGate: [researchgate.net/profile/Bektas-Sari-3](https://www.researchgate.net/profile/Bektas-Sari-3)<br>
+Academia: [independent.academia.edu/bektassari](https://independent.academia.edu/bektassari)<br>
