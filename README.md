@@ -3,10 +3,6 @@
 SAREHOME is a modern and responsive real estate website project designed to showcase premium properties for sale and rent. 
 Built with clean HTML, CSS, and JavaScript, this project is ideal for agencies, freelancers, or individuals seeking to create a strong online presence in the property market.
 
-## 🌍 Live Demo
-
-You can host this project on GitHub Pages or any static hosting platform to showcase your real estate services. *(Add deployment URL here if available)*
-
 ## 📂 Project Overview
 
 This project includes four primary pages:
